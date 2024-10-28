@@ -23,13 +23,13 @@ Este proyecto es un emulador para el procesador Z80 en una placa ESP32, utilizan
 ### Conexiones de Hardware
 1. **Adaptación del conector VGA**:
    - Se soldaron los pines del conector VGA a la placa ESP32, asegurando la continuidad de las conexiones.
-   - ![Diagrama de conexiones VGA](Proyecto-Final-Microp-main\img\pinesvga.png)
-   - ![Adaptación VGA](Proyecto-Final-Microp-main\img\vgaapadtado.png)
+   - ![Diagrama de conexiones VGA](docs\img\pinesvga.png)
+   - ![Adaptación VGA](docs\img\vgaapadtado.png)
 
 2. **Conector PS/2**:
    - Adaptación de un conector PS/2 Hembra mediante un convertidor PS/2 a USB.
-   - ![Diagrama de conexiones PS/2](Proyecto-Final-Microp-main\img\ps2pines.png)
-   - ![Adaptación PS/2](Proyecto-Final-Microp-main\img\ps2adaptado.png)
+   - ![Diagrama de conexiones PS/2](docs\img\ps2pines.png)
+   - ![Adaptación PS/2](docs\img\ps2adaptado.png)
 
 3. **Conversor de Niveles Lógicos**:
    - Implementado para asegurar una correcta comunicación entre el ESP32 y el teclado PS/2.
@@ -37,7 +37,7 @@ Este proyecto es un emulador para el procesador Z80 en una placa ESP32, utilizan
 ### Pruebas de Hardware
 - **Pruebas de pantalla con VGA**:
   - Verificación del logo en colores básicos y ajustes en el código para mostrar diferentes colores.
-  - ![Pruebas de Pantalla](Proyecto-Final-Microp-main\img\pruebacolores.png)
+  - ![Pruebas de Pantalla](docs\img\pruebacolores.png)
 
 - **Prueba del Teclado PS/2**:
   - Se evaluó la comunicación del teclado con la ESP32 y se solucionaron problemas de compatibilidad de alimentación.
@@ -57,7 +57,7 @@ Este proyecto es un emulador para el procesador Z80 en una placa ESP32, utilizan
 ## Fase Final
 - **Empaquetado**:
   - Caja diseñada para proteger el circuito y mejorar la estética del dispositivo.
-  - ![Empaquetado](Proyecto-Final-Microp-main\img\empaquetado.png)
+  - ![Empaquetado](docs\img\empaquetado.png)
 
 - **Prueba y Presentación Final**:
   - Montaje y prueba final del sistema en condiciones de uso para asegurar su correcto funcionamiento.
