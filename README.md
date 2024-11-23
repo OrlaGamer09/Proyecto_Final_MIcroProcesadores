@@ -1,6 +1,6 @@
 # ZX-ESPectrum-Final-MicroP
 
-> **IMPORTANTE**: Este proyecto es una adaptación de [dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) para el proyecto final de la asignatura de Microprocesadores (2024-01).
+> **IMPORTANTE**: Este proyecto es una adaptación de [dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) para el proyecto final de la asignatura de Microprocesadores (Junio 2024).
 
 ## Descripción del Proyecto
 Este proyecto es un emulador para el procesador Z80 en una placa ESP32, utilizando un teclado PS/2 y una pantalla VGA para simular el entorno de la computadora Sinclair ZX Spectrum. A continuación se detallan los principales hitos del desarrollo.
