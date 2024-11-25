@@ -1,4 +1,5 @@
 # ZX-ESPectrum-Final-MicroP
+- [English](./README.md)  
 
 > **IMPORTANTE**: Este proyecto es una adaptación de [dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) para el proyecto final de la asignatura de Microprocesadores (Junio 2024).
 
