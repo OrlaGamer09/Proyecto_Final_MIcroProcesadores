@@ -1,72 +1,70 @@
 # ZX-ESPectrum-Final-MicroP
+- [Spanish](./README_es.md) 
 
-> **IMPORTANTE**: Este proyecto es una adaptación de [dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) para el proyecto final de la asignatura de Microprocesadores (Junio 2024).
+> **IMPORTANT**: This project is an adaptation of [dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) for the final project of the Microprocessors course (June 2024).
 
-## Descripción del Proyecto
-Este proyecto es un emulador para el procesador Z80 en una placa ESP32, utilizando un teclado PS/2 y una pantalla VGA para simular el entorno de la computadora Sinclair ZX Spectrum. A continuación se detallan los principales hitos del desarrollo.
+## Project Description
+This project is an emulator for the Z80 processor on an ESP32 board, using a PS/2 keyboard and a VGA screen to simulate the environment of the Sinclair ZX Spectrum computer. Below are the main milestones of the development process.
 
-## Roles y Herramientas Utilizadas
+## Roles and Tools Used
 - **Roles**:
   - Andrea Arias: Product Manager
   - Orlando Arroyo: Hardware Developer
-  - Karen Barros y Cristian Vasco: Software Developers
+  - Karen Barros and Cristian Vasco: Software Developers
 
-- **Herramientas**:
-  - Notion para la asignación de tareas y seguimiento
+- **Tools**:
+  - Notion for task assignment and tracking
   - Visual Studio Code, Arduino IDE
-  - GitHub para control de versiones
+  - GitHub for version control
 
 ---
 
-## Proceso de Desarrollo
+## Development Process
 
-### Conexiones de Hardware
-1. **Adaptación del conector VGA**:
-   - Se soldaron los pines del conector VGA a la placa ESP32, asegurando la continuidad de las conexiones.
-   - ![Diagrama de conexiones VGA](./docs/img/pinesvga.png)
-   - ![Adaptación VGA](./docs/img/vgaapadtado.png)
+### Hardware Connections
+1. **VGA Connector Adaptation**:
+   - The VGA connector pins were soldered to the ESP32 board, ensuring continuity of the connections.
+   - ![VGA Connection Diagram](./docs/img/pinesvga.png)
+   - ![VGA Adaptation](./docs/img/vgaapadtado.png)
 
-2. **Conector PS/2**:
-   - Adaptación de un conector PS/2 Hembra mediante un convertidor PS/2 a USB.
-   - ![Diagrama de conexiones PS/2](./docs/img/ps2pines.png)
-   - ![Adaptación PS/2](./docs/img/ps2adaptado.png)
+2. **PS/2 Connector**:
+   - Adaptation of a female PS/2 connector using a PS/2 to USB converter.
+   - ![PS/2 Connection Diagram](./docs/img/ps2pines.png)
+   - ![PS/2 Adaptation](./docs/img/ps2adaptado.png)
 
+3. **Logic Level Converter**:
+   - Implemented to ensure proper communication between the ESP32 and the PS/2 keyboard.
 
+### Hardware Testing
+- **VGA Screen Testing**:
+  - Verification of the logo in basic colors and code adjustments to display different colors.
+  - ![Screen Testing](./docs/img/pruebacolores.png)
 
-3. **Conversor de Niveles Lógicos**:
-   - Implementado para asegurar una correcta comunicación entre el ESP32 y el teclado PS/2.
-   
-### Pruebas de Hardware
-- **Pruebas de pantalla con VGA**:
-  - Verificación del logo en colores básicos y ajustes en el código para mostrar diferentes colores.
-  - ![Pruebas de Pantalla](./docs/img/pruebacolores.png)
-
-- **Prueba del Teclado PS/2**:
-  - Se evaluó la comunicación del teclado con la ESP32 y se solucionaron problemas de compatibilidad de alimentación.
+- **PS/2 Keyboard Testing**:
+  - Communication between the keyboard and the ESP32 was evaluated, and power compatibility issues were resolved.
 
 ---
 
-## Integración de Software
-1. **Emulador de Z80**:
-   - Código ajustado para emular juegos y colores específicos en el monitor VGA.
-   
+## Software Integration
+1. **Z80 Emulator**:
+   - Code adjusted to emulate games and specific colors on the VGA monitor.
 
-2. **Conexión Wii**:
-   - Se probó la conexión con un control de Wii mediante Bluetooth. Aunque exitosa, no se integró en la versión final.
-
----
-
-## Fase Final
-- **Empaquetado**:
-  - Caja diseñada para proteger el circuito y mejorar la estética del dispositivo.
-  - ![Empaquetado](./docs/img/empaquetado.png)
-
-- **Prueba y Presentación Final**:
-  - Montaje y prueba final del sistema en condiciones de uso para asegurar su correcto funcionamiento.
+2. **Wii Connection**:
+   - Connection with a Wii controller via Bluetooth was tested. Although successful, it was not integrated into the final version.
 
 ---
 
-## Resultados
-El proyecto cumplió con los objetivos establecidos, implementando un emulador funcional del ZX Spectrum en la ESP32 y logrando una interacción con el hardware y software planificados.
+## Final Phase
+- **Packaging**:
+  - A box was designed to protect the circuit and improve the device's aesthetics.
+  - ![Packaging](./docs/img/empaquetado.png)
 
-> **Nota**: Consulta el [README original de dcrespo3d](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) para más detalles técnicos.
+- **Final Testing and Presentation**:
+  - Assembly and final testing of the system under usage conditions to ensure proper operation.
+
+---
+
+## Results
+The project achieved the established objectives, implementing a functional emulator of the ZX Spectrum on the ESP32 and successfully integrating the planned hardware and software.
+
+> **Note**: Refer to [dcrespo3d's original README](https://github.com/dcrespo3d/ZX-ESPectrum-Wiimote) for more technical details.
